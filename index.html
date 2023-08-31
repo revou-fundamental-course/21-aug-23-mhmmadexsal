@@ -1,1 +1,80 @@
-df
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo"> 
+            <img src="aset/img/revoU.svg" alt="RevoU" class="hero-img">
+        </div>
+        <div class="navbar">
+            <ul class="wrapper">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Our Profile</a></li>
+                <li><a href="#">Achievement</a></li>
+                <li><a href="#">Message Us</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="content">
+                <p>Hi <span id="name">Exsal </span>, Welcome To Website</p>
+                <p>Ini adalah website latihan pertama</p>
+                <button id="tombol">Next</button>
+            </div>
+        </div>
+    </main> 
+    <main>
+        <div class="facilition">
+            <h2>Our Facilition</h2>
+        </div>
+    </main>
+        
+    
+    <main>
+        <div class="main">
+            <div class="message">
+                <h2 id="messageus">Message Us</h2>
+                <form name="form-message" onsubmit="return validateForm()">
+                    Nama : <input placeholder="Name" type="text" name="fullname">
+                    <br>
+
+                    Tanggal Lahir :
+                    <input type="date" name="birth-date">
+                    <br>
+
+                    Jenis Kelamin :
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Laki-Laki</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Perempuan</label>
+                    <br>
+
+                    Pesan :
+                    <textarea placeholder="pesan" name="messages" id="" cols="30" rows="10"></textarea>
+                    <br>
+
+                    <input type="submit" value="submit">
+                
+                </form>
+            </div>
+        </div>
+    </main>
+       
+    </main>
+    <footer>
+        <p style="left: auto;">Created By Exsal M Fahri</p>
+    </footer>
+
+    
+    
+    
+</body>
+</html>
